@@ -22,7 +22,7 @@
 | Repo | What it is |
 |------|------------|
 | **[chromafx](https://github.com/chromafx/chromafx)** | Core library — BMP, PNG, JPEG, GIF decode/encode + filters on .NET 10 |
-| **[chromafx-site](https://github.com/chromafx/chromafx-site)** | Documentation site for [chromafx.net](https://chromafx.net) |
+| **[chromafx-site](https://github.com/chromafx/chromafx-site)** | Docs for [chromafx.net](https://chromafx.net) (Cloudflare Pages) |
 | **[.github](https://github.com/chromafx/.github)** | Organization profile README |
 
 ### Why ChromaFx
