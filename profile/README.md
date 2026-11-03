@@ -30,7 +30,7 @@
 - **Deploy anywhere** — fully managed codecs; nothing extra for Docker/Lambda multi-arch
 - **Explicit API** — `Mutate` / `Clone`, typed encoders, public `ImageFormats` registry
 - **Lean stack** — no third-party NuGet dependencies on the hot path
-- **Pixel art (opt-in)** — Scale2x / Eagle / SaI and `RotateSprite` via `ChromaFx.PixelArt`
+- **Pixel art (opt-in)** — Scale2x / Scale3x / Hq2x–4x / CleanEdge / Eagle / SaI and `RotateSprite` / `CleanEdgeRotate` via `ChromaFx.PixelArt`
 
 Current NuGet line is **0.5.0-beta.\***:
 
