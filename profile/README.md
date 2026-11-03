@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://chromafx.net">chromafx.net</a> ·
-  <a href="https://www.nuget.org/packages/ChromaFx/?includePrerelease=true">NuGet</a> ·
+  <a href="https://www.nuget.org/packages/ChromaFx/">NuGet</a> ·
   <a href="https://github.com/chromafx/chromafx">Library</a> ·
   <a href="https://github.com/chromafx/chromafx-site">Docs</a>
 </p>
@@ -32,12 +32,12 @@
 - **Lean stack** — no third-party NuGet dependencies on the hot path
 - **Pixel art (opt-in)** — Scale2x / Scale3x / Hq2x–4x / CleanEdge / Eagle / SaI and `RotateSprite` / `CleanEdgeRotate` via `ChromaFx.PixelArt`
 
-Current NuGet line is **0.5.0-beta.\***:
+Current NuGet line is **0.6.0** (tag-only releases; 0.x may still change before 1.0):
 
 ```bash
-dotnet add package ChromaFx --prerelease
+dotnet add package ChromaFx
 # optional pixel-art upscaling / rotation:
-dotnet add package ChromaFx.PixelArt --prerelease
+dotnet add package ChromaFx.PixelArt
 ```
 
 ```csharp
@@ -50,7 +50,7 @@ Image.Load("input.png")
 
 - Site: [chromafx.net](https://chromafx.net)
 - Site source: [chromafx/chromafx-site](https://github.com/chromafx/chromafx-site)
-- Packages: [ChromaFx](https://www.nuget.org/packages/ChromaFx/?includePrerelease=true) · [ChromaFx.PixelArt](https://www.nuget.org/packages/ChromaFx.PixelArt/?includePrerelease=true)
+- Packages: [ChromaFx](https://www.nuget.org/packages/ChromaFx/) · [ChromaFx.PixelArt](https://www.nuget.org/packages/ChromaFx.PixelArt/)
 - License: Apache 2.0
 
 Fork of [Structure.Sketching](https://github.com/JaCraig/Structure.Sketching) by JaCraig. Maintained by Ho Tzin Mein.
