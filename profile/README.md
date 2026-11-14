@@ -21,7 +21,7 @@
 
 | Repo | What it is |
 |------|------------|
-| **[chromafx](https://github.com/chromafx/chromafx)** | Library — BMP, PNG, JPEG, GIF, TGA, TIFF, ICO + filters on .NET 10; opt-in `ChromaFx.PixelArt` and `ChromaFx.Native` (still WebP/AVIF/JPEG XL) |
+| **[chromafx](https://github.com/chromafx/chromafx)** | Library — BMP, PNG, JPEG, GIF, TGA, TIFF, ICO + filters on .NET 10; opt-in `ChromaFx.PixelArt`, `ChromaFx.Retro`, and `ChromaFx.Native` (still WebP/AVIF/JPEG XL) |
 | **[chromafx-site](https://github.com/chromafx/chromafx-site)** | Docs for [chromafx.net](https://chromafx.net) (Cloudflare Pages) |
 | **[.github](https://github.com/chromafx/.github)** | Organization profile README |
 
@@ -31,6 +31,7 @@
 - **Explicit API** — `Mutate` / `Clone`, typed encoders, public `ImageFormats` registry
 - **Lean stack** — no third-party NuGet dependencies on the hot path
 - **Pixel art (opt-in)** — Scale2x / Scale3x / Hq2x–4x / CleanEdge / Eagle / SaI and `RotateSprite` / `CleanEdgeRotate` via `ChromaFx.PixelArt`
+- **Retro (opt-in)** — web-safe / CGA / EGA / VGA DAC palettes via `ChromaFx.Retro`
 - **Native codecs (opt-in)** — still WebP, AVIF, and JPEG XL via `ChromaFx.Native`. Animated WebP/AVIF/JPEG XL are not supported; the meta-package stays free of native binaries
 
 Current NuGet line is **0.6.3** (tag-only releases; 0.x may still change before 1.0):
@@ -39,6 +40,8 @@ Current NuGet line is **0.6.3** (tag-only releases; 0.x may still change before 
 dotnet add package ChromaFx
 # optional pixel-art upscaling / rotation:
 dotnet add package ChromaFx.PixelArt
+# optional retro palettes:
+dotnet add package ChromaFx.Retro
 # optional still WebP / AVIF / JPEG XL:
 dotnet add package ChromaFx.Native
 ```
@@ -53,7 +56,7 @@ Image.Load("input.png")
 
 - Site: [chromafx.net](https://chromafx.net)
 - Site source: [chromafx/chromafx-site](https://github.com/chromafx/chromafx-site)
-- Packages: [ChromaFx](https://www.nuget.org/packages/ChromaFx/) · [ChromaFx.PixelArt](https://www.nuget.org/packages/ChromaFx.PixelArt/) · [ChromaFx.Native](https://www.nuget.org/packages/ChromaFx.Native/)
+- Packages: [ChromaFx](https://www.nuget.org/packages/ChromaFx/) · [ChromaFx.PixelArt](https://www.nuget.org/packages/ChromaFx.PixelArt/) · [ChromaFx.Retro](https://www.nuget.org/packages/ChromaFx.Retro/) · [ChromaFx.Native](https://www.nuget.org/packages/ChromaFx.Native/)
 - License: Apache 2.0
 
 Fork of [Structure.Sketching](https://github.com/JaCraig/Structure.Sketching) by JaCraig. Maintained by Ho Tzin Mein.
