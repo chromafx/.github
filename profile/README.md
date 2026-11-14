@@ -21,7 +21,7 @@
 
 | Repo | What it is |
 |------|------------|
-| **[chromafx](https://github.com/chromafx/chromafx)** | Library — BMP, PNG, JPEG, GIF, TGA, TIFF + filters on .NET 10; opt-in `ChromaFx.PixelArt` and `ChromaFx.Native` (still WebP/AVIF/JPEG XL) |
+| **[chromafx](https://github.com/chromafx/chromafx)** | Library — BMP, PNG, JPEG, GIF, TGA, TIFF, ICO + filters on .NET 10; opt-in `ChromaFx.PixelArt` and `ChromaFx.Native` (still WebP/AVIF/JPEG XL) |
 | **[chromafx-site](https://github.com/chromafx/chromafx-site)** | Docs for [chromafx.net](https://chromafx.net) (Cloudflare Pages) |
 | **[.github](https://github.com/chromafx/.github)** | Organization profile README |
 
@@ -33,7 +33,7 @@
 - **Pixel art (opt-in)** — Scale2x / Scale3x / Hq2x–4x / CleanEdge / Eagle / SaI and `RotateSprite` / `CleanEdgeRotate` via `ChromaFx.PixelArt`
 - **Native codecs (opt-in)** — still WebP, AVIF, and JPEG XL via `ChromaFx.Native`. Animated WebP/AVIF/JPEG XL are not supported; the meta-package stays free of native binaries
 
-Current NuGet line is **0.6.2** (tag-only releases; 0.x may still change before 1.0):
+Current NuGet line is **0.6.3** (tag-only releases; 0.x may still change before 1.0):
 
 ```bash
 dotnet add package ChromaFx
