@@ -31,16 +31,16 @@
 - **Explicit API** — `Mutate` / `Clone`, typed encoders, public `ImageFormats` registry
 - **Lean stack** — no third-party NuGet dependencies on the hot path
 - **Pixel art (opt-in)** — Scale2x / Scale3x / Hq2x–4x / CleanEdge / Eagle / SaI and `RotateSprite` / `CleanEdgeRotate` via `ChromaFx.PixelArt`
-- **Retro (opt-in)** — web-safe / CGA / EGA / VGA DAC palettes via `ChromaFx.Retro`
+- **Retro (opt-in)** — palettes + Millennium / classic FX / plasma / fire via `ChromaFx.Retro`
 - **Native codecs (opt-in)** — still WebP, AVIF, and JPEG XL via `ChromaFx.Native`. Animated WebP/AVIF/JPEG XL are not supported; the meta-package stays free of native binaries
 
-Current NuGet line is **0.6.3** (tag-only releases; 0.x may still change before 1.0):
+Current NuGet line is **0.6.4** (tag-only releases; 0.x may still change before 1.0):
 
 ```bash
 dotnet add package ChromaFx
 # optional pixel-art upscaling / rotation:
 dotnet add package ChromaFx.PixelArt
-# optional retro palettes:
+# optional retro palettes + FX:
 dotnet add package ChromaFx.Retro
 # optional still WebP / AVIF / JPEG XL:
 dotnet add package ChromaFx.Native
