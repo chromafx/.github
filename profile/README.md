@@ -12,6 +12,7 @@
   <a href="https://chromafx.net">chromafx.net</a> ·
   <a href="https://www.nuget.org/packages/ChromaFx/">NuGet</a> ·
   <a href="https://github.com/chromafx/chromafx">Library</a> ·
+  <a href="https://github.com/chromafx/chromalab">ChromaLab</a> ·
   <a href="https://github.com/chromafx/chromafx-site">Docs</a>
 </p>
 
@@ -22,6 +23,7 @@
 | Repo | What it is |
 |------|------------|
 | **[chromafx](https://github.com/chromafx/chromafx)** | Library — BMP, PNG, JPEG, GIF, TGA, TIFF, ICO + filters on .NET 10; opt-in `ChromaFx.PixelArt`, `ChromaFx.Retro`, and `ChromaFx.Native` (still WebP/AVIF/JPEG XL) |
+| **[chromalab](https://github.com/chromafx/chromalab)** | Desktop showcase lab (Avalonia) — open images, try filters, save; [releases](https://github.com/chromafx/chromalab/releases) |
 | **[chromafx-site](https://github.com/chromafx/chromafx-site)** | Docs for [chromafx.net](https://chromafx.net) (Cloudflare Pages) |
 | **[.github](https://github.com/chromafx/.github)** | Organization profile README |
 
@@ -56,6 +58,7 @@ Image.Load("input.png")
 
 - Site: [chromafx.net](https://chromafx.net)
 - Site source: [chromafx/chromafx-site](https://github.com/chromafx/chromafx-site)
+- Desktop lab: [chromafx/chromalab](https://github.com/chromafx/chromalab) ([releases](https://github.com/chromafx/chromalab/releases))
 - Packages: [ChromaFx](https://www.nuget.org/packages/ChromaFx/) · [ChromaFx.PixelArt](https://www.nuget.org/packages/ChromaFx.PixelArt/) · [ChromaFx.Retro](https://www.nuget.org/packages/ChromaFx.Retro/) · [ChromaFx.Native](https://www.nuget.org/packages/ChromaFx.Native/)
 - License: Apache 2.0
 
