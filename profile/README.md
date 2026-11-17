@@ -23,7 +23,7 @@
 | Repo | What it is |
 |------|------------|
 | **[chromafx](https://github.com/chromafx/chromafx)** | Library — BMP, PNG, JPEG, GIF, TGA, TIFF, ICO + filters on .NET 10; opt-in `ChromaFx.PixelArt`, `ChromaFx.Retro`, and `ChromaFx.Native` (still WebP/AVIF/JPEG XL) |
-| **[chromalab](https://github.com/chromafx/chromalab)** | Desktop image editor (Avalonia) — layers, filters, macros/bulk, ORA; [releases](https://github.com/chromafx/chromalab/releases) |
+| **[chromalab](https://github.com/chromafx/chromalab)** | Desktop image editor (Avalonia) — layers, filters, macros/bulk, ORA, GIF preview / canvas size; [releases](https://github.com/chromafx/chromalab/releases) |
 | **[chromafx-site](https://github.com/chromafx/chromafx-site)** | Docs for [chromafx.net](https://chromafx.net) (Cloudflare Pages) |
 | **[.github](https://github.com/chromafx/.github)** | Organization profile README |
 
