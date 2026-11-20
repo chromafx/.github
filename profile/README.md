@@ -36,7 +36,7 @@
 - **Retro (opt-in)** — palettes + Millennium / classic FX / plasma / fire via `ChromaFx.Retro`
 - **Native codecs (opt-in)** — still WebP, AVIF, and JPEG XL via `ChromaFx.Native`. Animated WebP/AVIF/JPEG XL are not supported; the meta-package stays free of native binaries
 
-Current NuGet line is **0.6.5** (tag-only releases; 0.x may still change before 1.0):
+Current NuGet line is **0.6.6** (tag-only releases; 0.x may still change before 1.0):
 
 ```bash
 dotnet add package ChromaFx
